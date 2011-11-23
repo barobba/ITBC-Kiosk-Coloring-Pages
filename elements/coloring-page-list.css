@@ -1,0 +1,26 @@
+
+.coloring-page-list-wrapper {
+	border-right: 2px outset rgb(230,230,230);
+	border-bottom: 2px outset rgb(230,230,230);
+	padding: 1em;
+	border-radius: 0px 0px 1em 0px;
+  -moz-border-radius: 0px 0px 1em 0px;
+  position: absolute;
+  width: 250px;
+}
+
+@media print {
+  .coloring-page-list-wrapper {
+    display: none;
+  }
+}
+
+.coloring-page-list {
+  height: 362px;
+  overflow-y: scroll;
+}
+
+.coloring-page-list .thumbnail-list-item {
+	margin: 1em;
+	text-align: center;
+}

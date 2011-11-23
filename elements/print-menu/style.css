@@ -1,0 +1,11 @@
+
+
+.print-options {
+	text-align: center;
+}
+
+@media print {
+	.print-options {
+	  display: none;
+	}
+}

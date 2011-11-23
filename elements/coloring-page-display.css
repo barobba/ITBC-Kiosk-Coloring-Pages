@@ -1,0 +1,36 @@
+
+.coloring-page {
+	margin-top: 1em;
+	margin-left: 4em;
+	text-align: center;
+}
+
+.coloring-page .coloring-page-text {
+	font-size: 2em;
+	display: inline-block;
+}
+
+.coloring-page .coloring-page-audio {
+	margin-left: .5em;
+	display: inline-block;
+	width: 54px;
+	height: 54px;
+	margin-top: .5em;
+}
+
+.coloring-page .coloring-page-audio,
+.coloring-page .coloring-page-audio .stopped {
+  background-image: url('audio_player_play.png');
+}
+
+.coloring-page .coloring-page-audio .song-player-playing, /* This class is appended along with ".song-player" */
+.coloring-page .coloring-page-audio .playing {
+  background-image: url('audio_player_stop.png');
+}
+
+
+@media print {
+	.coloring-page .coloring-page-audio {
+	  display: none;
+	}
+}

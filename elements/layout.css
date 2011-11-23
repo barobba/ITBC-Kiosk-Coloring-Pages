@@ -1,0 +1,26 @@
+
+
+#page-layout {
+	width: 100%;
+}
+
+#page-layout #page-layout-left {
+	width: 275px;
+	overflow: scroll;
+  vertical-align: top;
+	
+}
+
+@media print {
+	
+	#page-layout #page-layout-left {
+	  display: none;
+	}
+	
+}
+
+
+#page-layout #page-layout-right {
+	vertical-align: top;
+	overflow: scroll;
+}

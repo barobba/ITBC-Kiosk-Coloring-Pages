@@ -10,40 +10,58 @@
   <link rel="stylesheet" href="elements/layout.css">
   <link rel="stylesheet" href="elements/coloring-page-list.css">
 	<link rel="stylesheet" href="elements/coloring-page-display.css">
+  <link rel="stylesheet" href="elements/print-menu/style.css">
 	
 	<!-- JavaScript -->
-	<script src="lib/jquery-1.6.2.min.js"></script>
-  <script src="app/_main.js"></script>
+	<script type="application/javascript" src="lib/jquery-1.6.2.min.js"></script>
+  <script type="application/javascript" src="app/_main.js"></script>
 	
 </head>
 <body>
 
+   <div class="coloring-page-list-wrapper">
+     <div class="coloring-page-list"></div>
+   </div>
+
+    <div class="coloring-page-display">
+      <div class="print-options">
+        <div class="printer">
+          <img src="elements/print-menu/printer-icon.png" />
+        </div>
+      </div>
+      <div class="coloring-page-container"></div>
+    </div>
+
+
+<!--
+ 
   <table id="page-layout" class="page-layout-element">
   <tr class="page-layout-element">
   <td id="page-layout-left" class="page-layout-column page-layout-element">
-
-    <div class="coloring-page-list">
-      LIST GOES HERE
-    </div>
-  
-  </td><!-- end of #page-layout-left -->
+  </td>
   <td id="page-layout-right" class="page-layout-column page-layout-element">
-s  
-    <div class="coloring-page-display">
-      <div class="print-options">
-        PRINTING OPTIONS GOES HERE
-      </div>
-      <div class="coloring-page">
-        COLORING PAGE GOES HERE
-      </div>
-      <div class="language-element">
-        LANGUAGE CONTENT GOES HERE
-      </div>
-    </div>
-     
-  </td><!-- end of #page-layout-right -->
+  </td>
   </tr>
   </table>
+-->
+
+
+
+  
+  <div id="hidden-parts" class="hidden">
+  
+	  <div class="thumbnail-list-item">
+	    <div class="thumbnail-list-item-image"></div>
+	  </div>
+
+    <div class="coloring-page">
+      <div class="coloring-page-image"></div>
+      <div class="coloring-page-text"></div>
+      <div class="coloring-page-audio"></div>
+    </div>
+    
+  </div>
+  
 
 </body>
 </html>
