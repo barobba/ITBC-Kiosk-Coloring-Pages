@@ -2,6 +2,7 @@
 
 .print-options {
 	text-align: center;
+  cursor: pointer;
 }
 
 @media print {

@@ -16,6 +16,7 @@
 	width: 54px;
 	height: 54px;
 	margin-top: .5em;
+  cursor: pointer;
 }
 
 .coloring-page .coloring-page-audio,

@@ -23,4 +23,5 @@
 .coloring-page-list .thumbnail-list-item {
 	margin: 1em;
 	text-align: center;
+  cursor: pointer;
 }
